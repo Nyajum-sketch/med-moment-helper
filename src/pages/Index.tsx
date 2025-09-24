@@ -27,7 +27,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-medical-soft-gradient">
+    <div className="bg-medical-soft-gradient">
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0">
@@ -47,10 +47,10 @@ const Index = () => {
               </div>
             </div>
             <h1 className="text-4xl font-bold text-foreground sm:text-5xl md:text-6xl animate-fade-in">
-              Medicine Reminder
+              Medicine Dashboard
             </h1>
             <p className="mt-4 text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '200ms' }}>
-              Never miss your medication again. Set up personalized reminders for all your medicines.
+              Manage your medications and never miss a dose again
             </p>
           </div>
         </div>
